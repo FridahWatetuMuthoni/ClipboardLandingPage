@@ -1,0 +1,19 @@
+.info{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    margin: 10px 0;
+
+    p{
+        max-width: 70%;
+    }
+}
+
+@media (min-width:768px){
+    .info{
+        height: 20vh;
+    }
+}

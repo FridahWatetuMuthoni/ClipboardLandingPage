@@ -1,0 +1,28 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn{
+    padding:1rem 3.5rem;
+    border:none;
+    border-radius: 3rem;
+}
+
